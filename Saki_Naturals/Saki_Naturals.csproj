@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\Hello Valentina.ttf" />
+    <None Remove="Images\add_icon.png" />
+    <None Remove="Images\employee_icon.png" />
+    <None Remove="Images\product_icon.png" />
+    <None Remove="Images\purchase_icon.png" />
+    <None Remove="Images\reports_icon.png" />
+    <None Remove="Images\sales_icon.png" />
+    <None Remove="Images\settings_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\Hello Valentina.ttf" />
+    <Resource Include="Images\add_icon.png" />
+    <Resource Include="Images\employee_icon.png" />
+    <Resource Include="Images\product_icon.png" />
+    <Resource Include="Images\purchase_icon.png" />
+    <Resource Include="Images\reports_icon.png" />
+    <Resource Include="Images\sales_icon.png" />
+    <Resource Include="Images\settings_icon.png" />
+  </ItemGroup>
+
+</Project>
